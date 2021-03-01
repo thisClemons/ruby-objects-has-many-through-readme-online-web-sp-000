@@ -1,5 +1,7 @@
 class Customer
 
+  attr_reader :waiter
+
   @@all = []
 
   def initialize(name, age)
