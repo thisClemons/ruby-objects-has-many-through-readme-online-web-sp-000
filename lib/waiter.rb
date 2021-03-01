@@ -39,18 +39,5 @@ class Waiter
       end
     end
     best_tipper
-
-
-
-    # best_tip = Meal.all[0].tip
-    # best_tipper = Meal.all[0].customer
-    #
-    # Meal.all.each do |meal|
-    #   if meal.tip > best_tip
-    #     best_tipper = meal.customer
-    #     best_tip = meal.tip
-    #   end
-    #   best_tipper
-    # end
   end
 end
