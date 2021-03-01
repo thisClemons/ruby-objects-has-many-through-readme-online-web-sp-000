@@ -30,6 +30,4 @@ class Waiter
   def customers
     Cusotmer.all.select {|c| c.waiter == self}
   end
-
-
 end
