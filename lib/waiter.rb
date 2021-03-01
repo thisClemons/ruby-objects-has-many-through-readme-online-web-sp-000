@@ -36,5 +36,6 @@ class Waiter
         best_tipper = meal.customer
         best_tip = meal.tip
       end
+      best_tipper
   end
 end
