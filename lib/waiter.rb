@@ -1,6 +1,6 @@
 class Waiter
 
-  attr_reader :customer
+  attr_accessor :customer
 
   @@all = []
 
