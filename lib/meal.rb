@@ -6,7 +6,12 @@ class Meal
     @waiter = waiter
     @customer = customer
     @total = total
-    @tip = tip     
+    @tip = tip
+  end
+
+  def self.all
+    @@all 
+
   end
 
 end
