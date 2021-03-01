@@ -1,6 +1,6 @@
 class Customer
 
-  attr_accessor :waiter
+  # attr_accessor :waiter
 
   @@all = []
 
@@ -28,7 +28,7 @@ class Customer
   end
 
   def waiters
-    Waiter.all.select {|w| w.customer == self}
+    self.meals.collect {|m| m.waiter}
   end
 
 end
