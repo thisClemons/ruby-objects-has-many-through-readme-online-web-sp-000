@@ -1,7 +1,5 @@
 class Waiter
 
-  # attr_accessor :customer
-
   @@all = []
 
   def initialize(name, years)
